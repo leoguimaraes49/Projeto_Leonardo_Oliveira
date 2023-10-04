@@ -29,4 +29,15 @@ public class ClasseA {
     public void MA3 () {
         System.out.println("Alteração a classe A partir do clone");
     }
+
+    /**
+     * Atualizado via fork 
+     * @author Gabriel Raimundo Pereira Barroso
+     * @param numero1
+     * @param numero2
+     * @return
+     */
+    public int getSoma (int numero1, int numero2) {
+        return numero1 + numero2;
+    }
 }
